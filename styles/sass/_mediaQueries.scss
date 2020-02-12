@@ -1,0 +1,405 @@
+@media only screen and (max-width: 1480px){
+  .displayContents {
+    height: 106%;
+  }
+}
+
+@media only screen and (max-width: 1389px){  
+  .displayContents {
+    height: 90%;
+  }
+}
+
+@media only screen and (max-width: 1165px){
+  .mainHeader {
+    background-position: 87% -10px;
+    background-image: url('../images/headerBackground1165px.jpg');
+  }
+  .container{
+    width: 70%;
+    margin-top: 5%;
+  }
+  .displayContents {
+    height: 90%;
+  }
+
+  .displayContentsName h2 {
+    font-size: 1.2rem;
+    line-height: 30px;
+  }
+
+  .displayContentsVenue p {
+    font-size: 1rem;
+  }
+
+   footer {
+    margin-top: -1%;
+  }
+}
+
+@media only screen and (max-width: 1115px){
+   .displayContents {
+    height: 85%;
+  }
+}
+
+@media only screen and (max-width: 925px){
+
+  .mainHeader {
+      background-image: url('../images/headerMainImage925px.jpg');
+  }
+
+  .headerContents h1 {
+    font-size: 2rem;
+  }
+
+  .container {
+    width: 80%;
+    margin-top: 5%;
+  }
+
+  .dropDownContainer {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .dropDownContainer h2 {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .buttonContainer {
+      display: flex;
+      justify-content: center;
+      margin-top: 3%;
+  }
+  .nao-month td {
+    padding: 15px 1px;
+  } 
+
+  .displayEvents {
+    flex-direction: column;
+  }
+
+  .displayContents {
+    margin: 5% auto;
+    width: 63%;
+    padding-bottom: 10%;
+  }
+}
+  
+
+@media only screen and (max-width: 800px){  
+
+  .mainHeader {
+      background-image: url('../images/headerBackground800px.jpg');
+  }
+  .container {
+    margin: 7% 0;
+  }
+
+  .backToTop {
+    padding-bottom: 10.9%;
+  }
+
+  .displayContents {
+    height: 32%;
+  }
+}
+
+@media only screen and (max-width: 785px){
+
+   .mainHeader {
+      background-image: url('../images/headerMainImage785px.jpg');
+  }
+
+  .headerContents h1 {
+    margin-top: 2%;
+  }
+  
+}
+
+@media only screen and (max-width: 768px){
+  
+  .container {
+    width: 80%;
+    margin: 15% 0;
+    margin-top: 7%;
+  }
+  .headerContents h1 {
+   line-height: 45px;
+  }
+
+  .backToTop {
+    margin-top: -35%;
+    padding-bottom: 29.9%;
+    text-align: center;
+  }
+
+  .shareEvents button {
+    margin: 0% 1% 15% 1%;
+  }
+
+  footer {
+    margin-top: -2%;
+  }
+}
+
+@media only screen and (max-width: 642px){ 
+
+  footer {
+    margin-top: -3%;
+  }
+}
+
+@media only screen and (max-width: 505px){ 
+  footer {
+    margin-top: -5%;
+  }
+}
+
+@media only screen and (max-width: 450px){ 
+
+   .container {
+    width: 90%;
+    margin-top: 11%;
+  }
+}
+
+@media only screen and (max-width: 414px){ 
+  .mainHeader {
+      background-image: url('../images/headerBackground414px.jpg');
+  }
+  .logoContainer {
+    width: 100px;
+  }
+  .headerContents h1 {
+    font-size: 1.5rem;
+    padding: 0 15%;
+    line-height: 35px;
+  }
+
+  .dropDownContainer h2 {
+    font-size: 0.9rem;
+    padding: 0 0;
+  }
+  .container {
+    margin: 10% 0;
+  }
+
+  .nao-month td {
+    padding: 11px 1px;
+  } 
+
+  .displayEvents {
+    flex-direction: column;
+  }
+
+  .displayContents {
+    width: 83%;
+  }
+
+  .backToTop {
+    margin-top: -15%;
+    padding-bottom: 5.9%;
+    text-align: center;
+  }
+
+  footer {
+    margin-top: -4%;
+  }
+}
+
+@media only screen and (max-width: 375px){ 
+
+  .mainHeader {
+      background-image: url('../images/headerBackground375px.jpg');
+  }
+
+  .logoContainer {
+    width: 90px;
+    display: block;
+    margin-bottom: 2%;
+    // display: none;
+  }
+
+  .headerContents h1 {
+    font-size: 1.6rem;
+    padding: 0 10%;
+    line-height: 35px;
+    padding-top: 0%;
+  }
+
+  .dropDownContainer {
+    margin: 0;
+  }
+
+  .dropDownContainer h2 {
+    font-size: 0.9rem;
+    padding: 0% 0;
+  }
+
+  .container {
+    margin-top: 8%;
+  }
+
+  .nao-month td {
+    padding: 7px 1px;
+  } 
+
+  .displayEvents {
+    flex-direction: column;
+  }
+
+  .backToTop {
+    padding-bottom: 5.9%;
+  }
+
+   footer {
+    margin-top: -5%;
+  }
+}
+
+@media only screen and (max-width: 360px){ 
+
+  .mainHeader {
+      background-image: url('../images/headerBackground360px.jpg');
+  }
+
+  .logoContainer {
+    width: 80px;
+    display: block;
+    margin-bottom: 2%;
+  }
+
+  .headerContents h1 {
+    font-size: 1.4rem;
+    padding: 0 10%;
+    line-height: 35px;
+  }
+
+  .dropDownContainer h2 {
+    font-size: 1rem;
+    padding: 0% 0;
+  }
+
+  .dropDownContainer {
+    margin-top: 0;
+  }
+
+  .container {
+    margin: 5% 0;
+  }
+
+  .nao-month td {
+    padding: 15px 1px;
+  } 
+
+  .displayContents {
+    margin: 5% auto;
+    width: 83%;
+  }
+
+
+  .backToTop {
+    margin-top: -45%;
+    padding-bottom: 37.9%;
+    text-align: center;
+  }
+
+  .shareEvents button {
+    margin: 20% 1% 8% 1%;
+  }
+
+  footer {
+    margin-top: -7%;
+  }
+}
+
+@media only screen and (max-width: 355px){
+
+  .logoContainer {
+    width: 90px;
+  }
+   .mainHeader {
+      background-image: url('../images/headerBackground355px.jpg');
+  }
+  .headerContents h1 {
+    font-size: 1.9rem;
+    line-height: 2.2rem;
+    padding-top: 4%;
+    line-height: 30px;
+  }
+
+  .dropDownContainer h2 {
+    font-size: 0.9rem;
+  }
+
+  .buttonContainer {
+    justify-content: center;
+    margin-top: 3%;
+  }
+
+   .container {
+    width: 95%;
+    margin-top: 11%;
+  }
+
+  .nao-month td {
+    padding: 20px 1px;
+  } 
+
+  .displayContents {
+    margin: 5% auto;
+    width: 83%;
+  }
+
+  .displayContentsName h2 {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+  }
+
+  .displayContentsVenue p  {
+    font-size: 1.2rem;
+  }
+
+  .shareEvents button {
+    margin: 0% 7% 28% 7%;
+  }
+
+  footer {
+    margin-top: -10%;
+    padding: 2% 0;
+  }
+}
+
+@media only screen and (max-width: 320px){
+
+   .mainHeader {
+      background-image: url('../images/headerBackground320px.jpg');
+      height: 100vh;
+  }
+
+  .logoContainer {
+    width: 90px;
+
+  }
+  .headerContents h1 {
+    font-size: 1.8rem;
+    line-height: 1.9rem;
+    padding-top: 4%;
+  }
+
+  .dropDownContainer h2 {
+    font-size: 1rem;
+  }
+
+  .container {
+    margin-top: 10%;
+  }
+
+  .nao-month td {
+    padding: 10px 1px;
+  } 
+}

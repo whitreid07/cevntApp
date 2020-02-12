@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Whitney & Norre | CEVNT</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Monoton|Roboto&display=swap" rel="stylesheet">
+  <link rel='stylesheet' id='fontawesome-css' href='https://use.fontawesome.com/releases/v5.0.1/css/all.css?ver=4.9.1'
+    type='text/css' media='all' />
+  <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <link type="image/png" href="favicon/cevntLogo.svg" rel="icon">
+</head>
+
+<body>
+
+  <!-- SKIP TO MAIN CONTENT BUTTON -->
+  <a href="#mainContent" class="skipLink">Skip to main content.</a>
+
+  <!-- HEADER STARTS HERE -->
+  <header id="mainContent" class="mainHeader">
+    <div class="overlay">
+      <div class="headerContents">
+        <div class="logoContainer">
+          <img class="logo" src="images/cevntLogo.svg" alt="cevnt logo">
+        </div>
+        <h1>what's happening in Your City?</h1>
+      </div>
+
+      <div class="dropDownContainer">
+        <!-- <h2>Pick a city. Pick a date. Get an event!</h2> -->
+        <p>Select a City and Event from the drop down menu and then double click date on the calendar to get an EVENT!
+        </p>
+      </div>
+      <!-- SELECT CITY DROP DOWN -->
+      <div class="buttonContainer">
+        <div class="dropdownCity">
+          <button class="dropBtn1">select city</button>
+          <ul class="dropdownCityContent"></ul>
+        </div>
+        <div class="dropdownEvent">
+          <!-- SELECT CITY DROP DOWN -->
+          <button class="dropBtn2">select event</button>
+          <ul class="dropdownEventContent"></ul>
+        </div>
+      </div>
+
+
+      <!-- Calendar plugin from https://www.jqueryscript.net/time-clock/responsive-nao-calendar.html -->
+      <div class="jquery-script-clear"></div>
+      <div class="calendarContainer">
+        <div class="container">
+          <div class="myCalendar"></div>
+        </div>
+      </div>
+    </div>
+
+  </header>
+
+  <!-- MAIN STARTS HERE -->
+  <main>
+
+    <!-- Section to display events -->
+    <section>
+      <!-- Dynamic content goes here -->
+      <div class="displayEvents"></div>
+      <div class="shareEvents"></div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER STARTS HERE -->
+  <footer>
+    <p>Created by Whitney & Norre © 2019 </p>
+  </footer>
+
+  </div>
+
+  <!-- JS, JQUERY NAO CALENDAR -->
+  <script src="https://cdn.jsdelivr.net/npm/sharer.js@latest/sharer.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha384-vk5WoKIaW/vJyUAd9n/wmopsmNhiy+L2Z+SBxGYnUkunIxVxAv/UtMOhba/xskxh"
+    crossorigin="anonymous"></script>
+
+  <script src="js/script.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+  <script src="responsive-nao-calendar/jquery-pseudo-ripple.js"></script>
+  <script src="responsive-nao-calendar/jquery-nao-calendar.js"></script>
+</body>
+
+</html>

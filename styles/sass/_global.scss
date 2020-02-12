@@ -1,0 +1,66 @@
+html {
+  font-size: 125%;
+  overflow-x: hidden;
+}
+
+body {
+  font-size: 1rem;            
+  font-family: $secondaryFont;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 3.7rem;
+  font-family: 'Sansita', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+}   
+
+.nao-month td {
+  padding: 15px 1px;
+  box-shadow: 0 0 0 0.5px #ffffff, 0 0 3px 5px #3a97f9;
+}
+
+:focus {
+  box-shadow: 0 0 0 0.5px #ffffff, 0 0 3px 5px #3a97f9;
+}
+
+.wrapperContainer {
+  max-width: 1680px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.dropDownWrapper {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.backToTop {
+  text-align: left;
+  a {
+    text-align: center;
+    padding: 5%;
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 1.3rem;
+  }
+}
+
+//FOOTER STYLES
+footer {
+  padding: 0.7% 0;
+  text-align: center;
+  background: #1a2031;
+  color: #fff;
+  position: absolute;
+  width: 100%;
+  p {
+    font-size: 0.8rem;
+  }
+}
